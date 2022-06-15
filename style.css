@@ -1,0 +1,178 @@
+@import url('https://fonts.google.com/specimen/Poppins')
+*{
+
+}
+body{
+	background-image: url(desk.png) ;
+	background-color: hsl(0, 100%, 74%) ;
+	font-family: 'poppins' sans-serif;
+
+
+}
+.learn{
+	width: 1440px;
+	display: flex;
+	flex-direction: row;
+}
+.words{
+
+	color: white;
+	width: 1440px;
+}
+header{
+	margin-top: 250px;
+	font-weight: 700;
+	margin-right: 10px;
+	margin-left: 300px;
+	width: 400px;
+	font-size: 40px;
+
+	
+	
+}
+p{
+	margin-left: 300px;
+	width: 400px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.try{
+	margin-top: 100px;
+	width: 490px;
+	padding: 8px;
+	background: #6055a5;
+	color: white;
+	border-radius: 6px;
+}
+.try em{
+	color: black;
+}
+.registerform{
+border: 1px solid white;
+width: 480px;
+margin-top: 20px;
+margin-bottom: 30px;
+background: white;
+color: #fff;
+padding: 4px ;
+margin-right: 200px;
+border-radius: 6px;
+}
+#registerfirstname, #registerlastname,
+#registeremail, #registerpassword{
+border-style:solid;
+margin: 10px;
+width: 360px;
+display: flex;
+padding:10px;
+margin-top:30px;
+margin-left: 40px;
+border-radius: 4px;
+margin-bottom: -20px;
+}
+#registerbutton{
+	border-style:solid;
+background: #35d28d;
+margin: 10px;
+width: 390px;
+padding:10px;
+margin-top:px;
+margin-left:40px;
+margin-bottom: 10px;
+border-radius: 4px;
+}
+.terms{
+	color: black;
+	width: 360px;
+	margin-left: 60px;
+	font-size: 12px;
+	text-align: center;
+
+}
+.terms em{
+	color: red;
+}
+.footer{
+	margin-top: 200px;
+	text-align: center;
+}
+
+@media (max-width: 805px){
+	body{
+background-image: url(desk.png) ;
+	background-color: hsl(0, 100%, 74%) ;
+	font-family: 'poppins' sans-serif;
+
+}
+.learn{
+	flex-direction: column;
+	width: 375px;
+}
+.words{
+
+	color: white;
+	width: 375px;
+}
+header{
+	margin-top: 50px;
+	font-weight: 700;
+	margin-right: 10px;
+	margin-left: 30px;
+	width: 300px;
+	font-size: 40px;
+}
+p{
+	margin-left: 30px;
+	width: 300px;
+	font-size: 16px;
+	font-weight: 400;
+
+}
+.try{
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 310px;
+
+
+}
+.registerform{
+width: 300px;
+margin-top: 20px;
+margin-bottom: 30px;
+margin-left: 30px;
+display: block;
+}
+#registerfirstname, #registerlastname,
+#registeremail, #registerpassword{
+margin: 10px;
+width: 200px;
+margin-top:20px;
+margin-left: 40px;
+margin-bottom: -20px;
+}
+#registerbutton{
+margin: 10px;
+width: 227px;
+margin-left:40px;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+.terms{
+	width: 200px;
+	margin-left: 60px;
+	font-size: 12px;
+	text-align: center;
+
+}
+.footer{
+	margin-top: 30px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+}
